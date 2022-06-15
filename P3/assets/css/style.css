@@ -1,0 +1,40 @@
+body{
+    background-color: #2f1d58;
+
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.FlexContainer div {
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    background-color: lightblue;
+    text-align: center;
+}
+.opciones{
+    width: 300px;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingresar{
+    width: 300px;
+    height: 100px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
